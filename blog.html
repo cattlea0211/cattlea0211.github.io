@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>Inventi</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="sub-header-a"> 
+        <nav>
+            <a href="index.html"><img src="images/kring%201.png"></a>
+            <div class="nav-linksss" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="inventions.html">INVENTIONS</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="contacts.html">CONTACT US</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>Blog</h1>
+</section>
+  
+<!--------------------- blog content-------------------->
+    
+<section class="blog-content">
+    
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/simple.jpg">
+            <h2>Inventions Around Us</h2>
+            <p>Inventions are all around us. Without inventions the efficiency in how we do everyday things will be slow.</p>
+            <br>
+            <p>Inventions are all around us. Without inventions, the efficiency of how we do everyday things will be slow. Inventions are what make human minds creative and innovative. Some inventions are used to help poor people or people who need it. Some are used to help people with disabilities, and some are used for medical purposes. which makes inventions all around us important, whether they are big or small, From cooking items and storing food to refrigerate them to simple clothes and things that emit light like lamps, Everything is important, and we use inventions around us all the time. People are encouraged to try to improve on old inventions in order for them to become NEWER inventions. </p>
+            <br>
+            <p>New tools, devices, procedures, and medications, among other inventions, have greatly benefited society. New methods to construct, move, communicate, heal, study, and play are made possible by inventions, which also enable people throughout the world live longer, healthier, and more productive lives.</p>
+            <br>
+            <p>The pandemic has profoundly demonstrated the value of creativity, ingenuity, and the ability to come up with fresh approaches to adjusting to the environment. We devise new solutions to our daily conundrums every day in an effort to avoid having to deal with the same inconveniences over and over again.</p>
+            
+            <div class="comment-box">
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment">
+                </textarea>
+                <button type="submit" class="hero-btnn">POST COMMENT</button>
+            </form>
+        </div>
+            
+        </div>
+        
+        <div class="blog-right">
+            <h3>Top Inventions that<br>Changed the World<br>listed by LiveScience</h3>
+            <div>
+                <span> WHEELS </span>
+                <span>3500 B.C</span>
+            </div>
+            <div>
+                <span> NAILS </span>
+                <span>3500 B.C</span>
+            </div>
+            <div>
+                <span> COMPASS </span>
+                <span> 247 B.C</span>
+            </div>
+            <div>
+                <span> PRINTING PRESS </span>
+                <span>1436</span>
+            </div>
+            <div>
+                <span> TELEPHONE </span>
+                <span>1876</span>
+            </div>
+            <div>
+                <span> LIGHT BULB </span>
+                <span>1879</span>
+            </div>
+            <div>
+                <span> PENICILLIN </span>
+                <span>1928</span>
+            </div>
+        </div>
+        
+    </div>
+
+
+</section>    
+    
+    
+    
+    
+    
+    
+    
+<!-------------------------footer-------------------->
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are First year students from the University of Makati,We hope to provide new trends and Innovation that does not give you up or let you down.<br> We hope that this website will provide you with necessary information to not run around to other website.<br> We will not desert you, make you cry or say goodbye.We Will never tell a lie and our website does not contain viruses that can hurt you.</p>
+    
+    <div class="icons">
+        <a href="https://web.facebook.com/profile.php?id=100088706360830">
+        <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/InventiUmak">
+        <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/inventiinc/"> 
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/inventi-inc-4529a925b/">
+        <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by GROUP 5</p>
+</section>
+ 
+
+ <!------JavaScript for Toggle Menu------>
+ <script>
+     
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+     
+ </script>   
+    
+    
+</body>
+</html>

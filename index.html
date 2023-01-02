@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>Inventi</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="header"> 
+        <nav>
+            <a href="index.html"><img src="images/kring%201.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="inventions.html">INVENTIONS</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="contacts.html">CONTACT US</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     
+ <div class="text-box">
+     <h1>INVENTI</h1>
+     <p>Discover significant inventions and innovations<br> from throughout the globe.</p>  
+     <a href="inventions.html" class="hero-btn">Visit us to know more!</a>
+</div>
+
+</section>
+    
+<!------Latest Inventions------>    
+<section class="try">
+    <div class ="container">
+    <h1>Are you a dreamer?</h1>
+        <div class="rows">
+            <div class="cols">
+                <div class="feature-img">
+                <img src="images/flying%20car.png" width="100%">
+                <img src="images/play.png" class="play-btn" onclick="playVid('images/Flying%20Car.mp4')">
+                </div>
+            </div>
+            <div class="cal">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/MarsCat6.png">
+                        <img src="images/play.png" class="play-btn" onclick="playVid('images/MarsCat.mp4')">
+                    </div>
+                    <p>MarsCat: The first bionic pet cat in<br> the world, MarsCat, was created with<br> the intention of becoming a home robot.</p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/meca.jpeg">
+                        <img src="images/play.png" class="play-btn" onclick="playVid('images/Ameca.mp4')">
+                    </div>
+                    <p>Humanoid Robot: Ameca was created as a<br>platform for the advancement of artificial intelligence.</p>
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="images/crisp.jpg">
+                        <img src="images/play.png" class="play-btn" onclick="playVid('images/Crispr.mp4')">
+                    </div>
+                    <p>Crispr: Researchers can swiftly produce<br> cell and animal  models using CRISPR<br>genome editing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="video-player" id="videoPlayer">
+        <video width="100%" controls autoplay id="myVid">
+            <source src="images/Flying%20Car.mp4" type="video/mp4">
+        </video>
+        <img src="images/close.png" class="close-btn" onclick="stopVid()">
+    </div>
+    
+<script>
+    var videoPlayer = document.getElementById("videoPlayer");
+    var myVid = document.getElementById("myVid");
+    
+    function stopVid(){
+        
+        videoPlayer.style.display = "none";
+    }
+    
+    function playVid(file){
+         myVid.src = file;
+        videoPlayer.style.display = "block";
+    }
+    </script>
+    
+    </section>
+    
+<!-------------------------------------------------------------------------->
+
+<section class="innovationss">
+    <div><h1>LATEST INVENTIONS</h1>
+    <p> Highlighting the top innovations<br> made around the world.</p>
+    </div>
+    <div class="row">
+    <div class="innovations-cola">
+        <h3><a href="lifestyle.html">LIFESTYLE</a></h3>
+        <p> Highlighting the newest developments<br>in the lifestyle sector.</p>
+        </div>
+        <div class="innovations-cole">
+        <h3><a href="health.html">HEALTH</a></h3>
+        <p>  Highlighting the newest developments<br> in the health sector.</p>
+        </div>
+        <div class="innovations-colo">
+        <h3><a href="othersectors.html">OTHER SECTORS</a></h3>
+        <p> Highlighting the newest developments<br> from the other fields.</p>
+        </div>
+    </div>
+    
+    
+</section>    
+    <div class="containers">
+         <h1>You are <span class="auto-type"></span></h1>
+    </div>
+<section>
+    
+
+</section>    
+<!----------featured------------------>
+
+    <section class="featured">
+        <h1><a href="">FEATURED</a></h1>
+        <p>Check out the most recent and promising technological developments.</p>
+        
+        <div class="row">
+            <div class="featured-col">
+                <img src="images/metaverse9.jpg">
+                <div class="layer">
+                    <h3><a href="inventions.html">METAVERSE</a></h3>
+                </div>
+            </div>
+            <div class="featured-col">
+                <img src="images/digitaltwin3.jpg">
+                <div class="layer">
+                    <h3><a href="inventions.html">DIGITAL TWINS</a></h3>
+                </div>
+            </div>
+            <div class="featured-col">
+                <img src="images/digitaltwins%20(2).png">
+                <div class="layer">
+                    <h3><a href="inventions.html">FOLDABLE<br>PHONE</a></h3>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+<!-------filipino inventions-------------->
+    
+ <section class="filinv">
+    <div class="rowf">
+        <div class="innovationsss-cola">
+        <h3><a href="lifestyle.html">PROUD<br>LOCALE</a></h3>
+        <p> Highlighting the top Filipino inventions and Inventors of all time.</p>
+        </div>
+        </div>
+     
+     
+</section>
+
+<!--------------filipino inventor--------------->
+
+<section class="topinve">
+    <h1>Remarkable Filipino Inventors</h1>
+    <p>Get inspired by these amazing Filipino innovators.</p>
+    
+    <div class="row">
+        <div class="topinve-col">
+            <img src="images/fedelmundo1.jpg">
+            <div>
+                <p>Fe Villanueva del Mundo, OLD ONS GCGH, was a doctor from the Philippines. She is credited with creating the country's first pediatric hospital and for establishing the country's current system of providing healthcare for children.</p>
+                <h3>Fe Villanueva del Mundo</h3>
+                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart"></i>
+            </div>
+        </div>
+         <div class="topinve-col">
+            <img src="images/dadobanatao1.jpg">
+            <div>
+                <p>Diosdado "Dado" Banatao stands for the first wave of digital innovation, technology, and the Internet in the Philippines. His life's work is imprinted in the PC chip and graphics accelerator chip found in every personal computer that exists.</p>
+                <h3>Diosdado Banatao</h3>
+                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart"></i>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a href="filipino%20inventions.html" class="hero-btn">Click to know more!</a>
+    </div>
+</section>    
+<!----------contacts------------------>
+
+<section class="contact">
+    <h1>Contact our team!</h1>
+    <a href="contacts.html" class="hero-btn">CONTACT US</a>    
+</section>
+    
+<!----------footer-------------------->
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>As First year students from the University of Makati, we want to show new innovations that will make you understand the true purpose of technology in our everyday lives.We hope that<br> this website will provide you with necessary information to not run around to other website. We will not desert you, make you cry or say goodbye.We Will never tell a lie and <br>our website does not contain viruses that can hurt you.</p>
+    
+    <div class="icons">
+        <a href="https://web.facebook.com/profile.php?id=100088706360830">
+        <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/InventiUmak">
+        <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/inventiinc/"> 
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/inventi-inc-4529a925b/">
+        <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by GROUP 5</p>
+</section>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+ <!------JavaScript for Toggle Menu------>
+ <script>
+     
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+     
+ </script>   
+    
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings:["Capable","Worthy","Wonderful","Unique","Amazing"],
+            typeSpeed: 20,
+            backSpeed: 150,
+            loop: true
+        })
+    
+    </script>
+    
+</body>
+</html>

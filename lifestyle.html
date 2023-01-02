@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>Inventi</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="lifestyle-sub-header"> 
+        <nav>
+            <a href="index.html"><img src="images/kring%201.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="inventions.html">INVENTIONS</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="contacts.html">CONTACT US</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>LIFESTYLE</h1>
+</section>
+    
+<!--------Lifestyle Content----------->
+ 
+<section class="life-con1">
+    
+    <div class="life-con">
+        <h1>TOP TECHNOLOGICAL ADVANCES<br> IN LIFESTYLE SECTOR</h1>
+        <div>
+        <div class="life-cone-left">
+        <h2>SMART TOOTHBRUSH</h2>    
+            <p>The apps for all smart toothbrushes offer three fundamental features. They monitor how often you brush and show a pressure sensor and timer. The app tracks your brushing frequency by keeping track of how frequently you clean your teeth. When you apply excessive pressure to your teeth and gums, the pressure sensor in the app alerts you.</p>
+        </div>
+        <div class="life-cone-right">
+        <img src="images/toothbrush.jpg">
+        </div>  
+        </div>   
+        <div>
+        <div class="life-cone-left">
+        <h2>ROBO-BIRDS</h2>    
+            <p>The first robotic birds, like the live-flying RoBird, were created by researchers at the University of Twente. New theoretical insights form the basis for the creation of the next generation of robotic birds. His five-year project is ultimately focused on creating a new robotic bird. The earliest example is from 350 BCE, when the mathematician Archytas of Tarentum, who some believe to be the father of mechanics, is credited with building a mechanical wooden dove that could fly up to 200 meters on the power of compressed air or internal steam.</p>
+        </div>
+        <div class="life-cone-right">
+        <img src="images/bird.jpg">
+        </div>  
+        </div>
+        <div>
+        <div class="life-cone-left">
+        <h2>ALBERT CLOCK</h2>    
+            <p>An interesting feature of the LED clock known as the Albert Clock is that the hours and minutes are shown as mathematical equations. To prevent repetition, an algorithm was built into the special clock that creates equation terms at random. Alex Schindlbeck, the product designer, claims that Albert Einstein would have likely also become a good mathematician if he had owned a clock like this. While attending an art school in Germany, he made the clock. He took inspiration from Einstein for the clock because he believed the inventor reveled in his work with "childlike delight".</p>
+        </div>
+        <div class="life-cone-right">
+        <img src="images/albert-clock.jpg">
+        </div>  
+        </div>
+        <div>
+        <div class="life-cone-left">
+        <h2>SMART HELMET</h2>    
+            <p>Using Arduino and a transmitter, a smart helmet is created (Figure 7). It displays a notification on the LCD and sends an SMS to a registered number with the person's current location if there is alcohol concentration in the breath. Smart helmets are in charge of drowsiness, speed, and blink detection for accident avoidance, and they also send out signals to warn of impending danger. The smart helmets use the rescue request feature to alert authorities to a traffic collision and, in the event of one, to request assistance via text or phone calls.</p>
+        </div>
+        <div class="life-cone-right">
+        <img src="images/helmet.jpg">
+        </div>  
+        </div>
+        <div>
+        <div class="life-cone-left">
+        <h2>LIFESAVER DRONE</h2>    
+            <p>Surf lifesavers can use Little Ripper, a drone, to find and save swimmers in need by offering aerial observation and liferafts. Kevin Weldon created it after seeing a UAV look for survivors in the wake of Hurricane Katrina. When a shark is spotted nearby, the Shark Spotter drone is set up to fly above open waters and alert surfers and swimmers. The drone is equipped with loudspeakers to accomplish this. A lifeguard will be alerted as soon as the drone detects a shark in the water. The lifeguard can then shout down to those in the water to get to dry land using the loudspeakers.</p>
+        </div>
+        <div class="life-cone-right">
+        <img src="images/drone.jpg">
+        </div>  
+        </div>
+    </div>
+    
+    
+</section>
+    
+<!-------------------------footer-------------------->
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are First year students from the University of Makati,We hope to provide new trends and Innovation that does not give you up or let you down.<br> We hope that this website will provide you with necessary information to not run around to other website.<br> We will not desert you, make you cry or say goodbye.We Will never tell a lie and our website does not contain viruses that can hurt you.</p>
+    
+    <div class="icons">
+        <a href="https://web.facebook.com/profile.php?id=100088706360830">
+        <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/InventiUmak">
+        <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/inventiinc/"> 
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/inventi-inc-4529a925b/">
+        <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by GROUP 5</p>
+</section>   
+    
+<!------JavaScript for Toggle Menu------>
+ <script>
+     
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+     
+ </script>       
+    
+    
+</body>
+</html>      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
